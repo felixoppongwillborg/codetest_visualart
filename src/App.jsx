@@ -1,6 +1,20 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react'
+import axios from 'axios';
+
 
 function App() {
+
+  const [adData, setAdData] = useState({})
+
+  const getAdData = async () => {
+    const response = await axios.get('./data/Advdata.json')
+    setAdData(response.data)
+  }
+
+  useEffect(() => {
+   getAdData()
+  }, [])
+
   return (
     <div>
       <img src="/data/images/maner.png" id="maner" alt="Maner" data-cy="image" />
