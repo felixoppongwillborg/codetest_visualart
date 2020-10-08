@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#layout {
+  font-family: ICARubrikBold;
+  font-size: 9vh;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#promotionUnit {
+  font-family: ICARubrikSiffror;
+  font-size: 19vh;
+  position: absolute;
+  top: 91%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+#subUnit {
+  font-family: ICARubrikSiffror;
+  font-size: 9vh;
+  position: absolute;
+  top: 86%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+}
+
+#unitMesurement {
+  font-family: ICATextWebRegular;
+  font-size: 4vh;
+  position: absolute;
+  top: 96%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+}
+
+#articleName {
+  font-family: ICATextWebRegular;
+  font-size: 4vh;
+  position: absolute;
+  top: 120%;
+  left: 35%;
+}
+
+#companyInfo {
+  font-family: ICATextWebRegular;
+  font-size: 2vh;
+  position: absolute;
+  top: 125%;
+  left: 35%;
+}
+
+#maner {
+  width: 30vw;
+  height: 20vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 90%;
+}
+
+#blabar {
+  max-width: 20vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 90%;
+}
+
+#splash {
+  max-width: 20vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 90%;
 }
